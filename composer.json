@@ -1,0 +1,20 @@
+{
+    "name": "circle/composer-package-test",
+    "authors": [
+        {
+            "name": "circle",
+            "email": "newnash@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Circle\\PackageTest\\": "src"
+        }
+    },
+    "require": {
+        "symfony/filesystem": "^4.3",
+        "symfony/console": "^4.3",
+        "symfony/finder": "^4.3"
+    },
+    "bin": ["bin/correct-to-absolute-path"]
+}
