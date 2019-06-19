@@ -15,16 +15,3 @@ if (file_exists(dirname(dirname(__FILE__)) . '/vendor/autoload.php')) {
 $command = new Application();
 $command->run();
 
-
-/*
-$rootPathName  = 'ECMS_PATH';
-$rootDirectory = '/mnt/d/WWW/work/electronic_tender_guarantee/';
-$subDirectory  = 'e/member/';
-
-
-/mnt/d/WWW/work/electronic_tender_guarantee/
-
-e/member/
-
-ECMS_PATH
-*/
