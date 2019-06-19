@@ -1,5 +1,6 @@
 {
-    "name": "circle/composer-package-test",
+    "name": "circle33/transform-absolute-path",
+    "license": "MIT",
     "authors": [
         {
             "name": "circle",
@@ -8,7 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Circle\\PackageTest\\": "src"
+            "Circle33\\TransformAbsolutePath\\": "src"
         }
     },
     "require": {

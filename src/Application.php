@@ -1,8 +1,8 @@
 <?php
 
-namespace Circle\PackageTest;
+namespace Circle33\TransformAbsolutePath;
 
-use Circle\PackageTest\Commands\CorrectToAbsolutePath;
+use Circle33\TransformAbsolutePath\Commands\CorrectToAbsolutePath;
 use Symfony\Component\Console\Application as BasicApplication;
 
 class Application extends BasicApplication

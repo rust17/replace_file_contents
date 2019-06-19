@@ -1,6 +1,6 @@
 <?php
 
-namespace Circle\PackageTest\Commands;
+namespace Circle33\TransformAbsolutePath\Commands;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
