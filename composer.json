@@ -1,5 +1,5 @@
 {
-    "name": "circle33/transform-absolute-path",
+    "name": "circle33/replace-file-contents",
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Circle33\\TransformAbsolutePath\\": "src"
+            "Circle33\\ReplaceFileContents\\": "src"
         }
     },
     "require": {
