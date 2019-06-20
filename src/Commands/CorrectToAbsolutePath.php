@@ -93,9 +93,9 @@ class TransformAbsolutePath extends Command
 		$this->info['EXCLUDES'] = $excludes = $helper->ask($input, $output, $question);
 
 		// 寻找目标文件
-		$files = $this->findFiles($directory . $subDirectory, $output);
+		$files = $this->findFiles($directory . $subDirectory);
 		// 替换文件内容
-		$num   = $this->replaceContents($files, $output);
+		$num   = $this->replaceContents($files);
 
 		$output->writeln(\sprintf('<info>总共替换了 %s 次</info>', $num));
 	}
