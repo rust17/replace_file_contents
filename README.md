@@ -5,7 +5,7 @@
 ```shell
 composer install
 
-php bin/console app:correct-to-absolute-path
+php bin/console app:transform-absolute-path
 
 # 输入项目的根目录
 # 输入二级目录，将在该目录下查找文件进行替换

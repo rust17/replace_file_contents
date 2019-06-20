@@ -17,5 +17,5 @@
         "symfony/console": "^4.3",
         "symfony/finder": "^4.3"
     },
-    "bin": ["bin/correct-to-absolute-path"]
+    "bin": ["bin/transform-absolute-path"]
 }

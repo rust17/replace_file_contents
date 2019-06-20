@@ -11,14 +11,14 @@ use Symfony\Component\Console\Question\Question;
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Finder\Finder;
 
-class CorrectToAbsolutePath extends Command
+class TransformAbsolutePath extends Command
 {
 	/** 
 	 * @var string
 	 *
 	 * 命令名
 	 */
-	protected static $defaultName = 'app:correct-to-absolute-path';
+	protected static $defaultName = 'app:transform-absolute-path';
 
 	/** 
 	 * @var array
