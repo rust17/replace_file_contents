@@ -3,6 +3,7 @@
 namespace Circle33\ReplaceFileContents;
 
 use Circle33\ReplaceFileContents\Commands\TransformAbsolutePath;
+use Circle33\ReplaceFileContents\Commands\ReplaceFileContentsWithGivingFile;
 use Symfony\Component\Console\Application as BasicApplication;
 
 class Application extends BasicApplication
@@ -12,5 +13,6 @@ class Application extends BasicApplication
 		parent::__construct();
 
 		$this->add(new TransformAbsolutePath());
+		$this->add(new ReplaceFileContentsWithGivingFile());
 	}
 }

@@ -44,9 +44,10 @@ class TransformAbsolutePath extends Command
 	 * @var array
 	 */
 	protected $info = [
-		'DIRECTORY' => '',
-		'SUB_DIRECTORY' => '',
+		'DIRECTORY'       => '',
+		'SUB_DIRECTORY'   => '',
 		'ROOT_PATH_ALIAS' => '',
+		'EXCLUDES'        => '',
 	];
 
 	protected function configure()
